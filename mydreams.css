@@ -1,0 +1,70 @@
+/* mydreams.css */
+
+body {
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #5C9EDC;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #5C9EDC;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF6F61; /* Change color on hover */
+}
+
+section.story {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid darkblue;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section.story h2 {
+    font-size: 24px;
+    color: #5C9EDC;
+    margin: 0;
+}
+
+section.story p {
+    line-height: 1.6;
+}
+
+section.story img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #5C9EDC;
+    padding: 10px;
+    color: white;
+}
